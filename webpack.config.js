@@ -1,11 +1,13 @@
+const path = require('path')
+
 module.exports = {
     mode: 'development',
  
     entry: `./src/main.js`,
    
     output: {
-      path: `${__dirname}/dist`,
-      filename: 'main.js'
+      path: path.resolve(__dirname, './dist'),
+      filename: "main.js"
     },
   };
   
