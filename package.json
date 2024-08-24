@@ -8,12 +8,15 @@
     "jsdom": "^12.2.0"
   },
   "devDependencies": {
+    "live-server": "^1.2.2",
     "webpack": "^4.20.2",
     "webpack-cli": "^3.1.2"
   },
   "scripts": {
-    "build": "webpack"
+    "build": "webpack",
+    "start": "live-server"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "packageManager": "yarn@4.4.0"
 }
